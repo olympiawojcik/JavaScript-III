@@ -31,7 +31,7 @@ const myPerson = {
     lastname: "Doe",
     sayhello: function() {
         console.log(`${this.firstname} says hello`);
-        console.log('implicit this ====', this);
+        console.log('Implicit This is pointing to --->', this);
     }
 }
 //Step 2:Invoke Method on my Object
@@ -50,7 +50,7 @@ function Person(first, last, age) {
         console.log(`hi my name is ${this.firstName} ${this.lastName}`)
     }
     this.whatIsThis = function () {
-        console.log('this ====', this)
+        console.log('This is pointing to --->', this)
     }
 }
 
